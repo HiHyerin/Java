@@ -22,6 +22,8 @@
  */
 package 클래스문제_221107;
 
+
+
 class Movie{
 	// title, 개봉, 장르, 국가, 등급, 시간, 평점, 누적관객, 박스오피스, 줄거리, 포스터
 	String title;
