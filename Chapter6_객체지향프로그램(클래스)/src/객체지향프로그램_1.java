@@ -1,4 +1,5 @@
 import javax.swing.JFrame;
+ 
 
 // p.230
 public class 객체지향프로그램_1 extends JFrame{
