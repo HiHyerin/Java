@@ -1,0 +1,21 @@
+package com.sist.util;
+//p.513
+import java.util.*;
+public class MainClass_StringTokenizer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String date="2022-11-21";
+		StringTokenizer st= new StringTokenizer(date,"-");
+		// StringTokenizer(date) ==> " "은 구분문자에서 생략 가능
+//		String year = st.nextToken();
+//		String month = st.nextToken();
+//		String day = st.nextToken();
+		System.out.println(st.countTokens());
+		while(st.hasMoreTokens()) {
+			System.out.println(st.nextToken());
+		}
+				
+	}
+
+}
