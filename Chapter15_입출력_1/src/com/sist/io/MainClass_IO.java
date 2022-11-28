@@ -82,10 +82,13 @@ public class MainClass_IO {
          }*/
          // 폴더 만들기 : mkdir()
          File file=new File("c:\\download\\sawon.txt");
-         /*if(!dir.exists()) //폴더가 없다면 => exists() : 존재 여부 확인
+         File dir=new File("c:\\download22");
+         if(!dir.exists()) //폴더가 없다면 => exists() : 존재 여부 확인
          {
             dir.mkdir();
-         }*/
+         }else {
+        	 System.out.println("이미 만들어진 폴더입니다.");
+         }
          // 파일 만들기 : createNewFile
          /*if(!file.exists())
          {
